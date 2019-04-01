@@ -1,7 +1,12 @@
 body {
-  width: 99%;
-  height: 900px;
-  background-color: #fc6;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 #top-bar {
@@ -49,10 +54,12 @@ body {
 }
 
 .task {
-  border-color: black;
+  border-color: rgb(236, 235, 235);
   border-style: solid;
   border-width: 3px;
+
 }
+
 
 .button-size {
   padding-bottom: 20px;
@@ -65,4 +72,9 @@ body {
 
 h1 {
   color: #f30;
+}
+
+p {
+  color: white;
+
 }
